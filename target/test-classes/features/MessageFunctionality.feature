@@ -1,5 +1,5 @@
 
-
+@wip
 Feature: BlEUCRM Sending Message Functionalities
   Agile Story: As a user, I should be able to send messages by clicking on Message tab under Active Stream
 
@@ -25,7 +25,7 @@ Feature: BlEUCRM Sending Message Functionalities
     And User enters a mention
     Then User should see the mention on the writting pad
     
-  @wip
+
   Scenario: User should be able to send a message
     And user enters a message
     And User clicks on the send button
